@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matrícula - Academia Fitness Pro</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <a href="index.html" class="logo">FitnessPro</a>
+                <ul class="nav-menu">
+                    <li><a href="index.html#hero">Início</a></li>
+                    <li><a href="index.html#classes">Aulas</a></li>
+                    <li><a href="index.html#pricing">Planos</a></li>
+                    <li><a href="index.html#contact">Contato</a></li>
+                </ul>
+                <div class="hamburger">&#9776;</div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="registration-section">
+            <div class="container">
+                <h2 class="section-title">Faça sua Matrícula</h2>
+                <div class="form-container">
+                    <form id="registration-form">
+                        <div class="form-group">
+                            <label for="name">Nome Completo</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">E-mail</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Telefone</label>
+                            <input type="tel" id="phone" name="phone" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="plan">Escolha seu Plano</label>
+                            <select id="plan" name="plan">
+                                <option value="mensal">Plano Mensal - R$ 120/mês</option>
+                                <option value="anual">Plano Anual - R$ 99/mês</option>
+                            </select>
+                        </div>
+                        <button type="submit" class="btn">Finalizar Matrícula</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <a href="index.html" class="logo">FitnessPro</a>
+                    <p>Sua jornada para uma vida mais saudável começa aqui. Equipamentos de ponta e os melhores instrutores.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Contato</h4>
+                    <ul class="footer-links contact-info">
+                        <li><i class="fas fa-map-marker-alt"></i> <span>Rua da Academia, 123, Centro</span></li>
+                        <li><i class="fas fa-phone"></i> <span>(11) 98765-4321</span></li>
+                        <li><a href="https://www.google.com/maps/search/?api=1&query=Rua+da+Academia,123,Centro" target="_blank"><i class="fas fa-map-marked-alt"></i> <span>Ver no Google Maps</span></a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Siga-nos</h4>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 FitnessPro. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
