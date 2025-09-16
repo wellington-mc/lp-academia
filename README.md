@@ -59,12 +59,10 @@ Publicado em: https://wellington-mc.github.io/lp-academia/
 
 Caso precise reativar, use `Settings > Pages` (Source: Deploy from a branch, Branch: main /root).
 
-## Screenshot
-Adicione uma captura da home em `assets/screenshot.png` e ela aparecerá abaixo:
+## Prévia
+Imagem ilustrativa da página inicial.
 
-![Screenshot da home](assets/screenshot.PNG)
-
-Para criar rapidamente no Windows, use `Win + Shift + S` (Ferramenta de Captura) e salve como `assets/screenshot.png`.
+![Homepage preview](assets/screenshot.PNG)
 
 ## Licença
 Licenciado sob a licença MIT.
