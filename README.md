@@ -55,15 +55,14 @@ Sem dependências externas obrigatórias. É só abrir e usar.
 - SEO básico (meta tags, títulos, descrição, favicon).
 
 ## Demo (GitHub Pages)
-Após publicar no GitHub, ative o GitHub Pages em `Settings > Pages` (Source: Deploy from a branch, Branch: main /root).
+Publicado em: https://wellington-mc.github.io/lp-academia/
 
-- Link público (exemplo): `https://SEU_USUARIO.github.io/NOME_DO_REPO/`
-- Dica: adicione um screenshot em `assets/screenshot.png` e referencie aqui no README.
+Caso precise reativar, use `Settings > Pages` (Source: Deploy from a branch, Branch: main /root).
 
 ## Screenshot
 Adicione uma captura da home em `assets/screenshot.png` e ela aparecerá abaixo:
 
-![Screenshot da home](assets/screenshot.png)
+![Screenshot da home](assets/screenshot.PNG)
 
 Para criar rapidamente no Windows, use `Win + Shift + S` (Ferramenta de Captura) e salve como `assets/screenshot.png`.
 
