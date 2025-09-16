@@ -35,6 +35,12 @@ modelo_academia/
 
 Sem dependências externas obrigatórias. É só abrir e usar.
 
+## Destaques (para recrutadores)
+- Estrutura simples e semanticamente organizada em `index.html`.
+- CSS organizado e pronto para customização em `css/style.css` (responsivo básico).
+- Interações leves em `js/main.js` sem dependências.
+- Fácil de adaptar: conteúdo, branding e fluxos em arquivos separados.
+
 ## Como adaptar para sua marca
 - Cores/tipografia: ajuste no `css/style.css`.
 - Conteúdo/Seções: edite o `index.html`.
@@ -48,11 +54,24 @@ Sem dependências externas obrigatórias. É só abrir e usar.
 - Integração com formulário real (e-mail/WhatsApp/CRM).
 - SEO básico (meta tags, títulos, descrição, favicon).
 
-## Contribuindo
-Sinta-se à vontade para abrir issues, sugerir melhorias ou enviar pull requests. Toda contribuição é bem-vinda!
+## Demo (GitHub Pages)
+Após publicar no GitHub, ative o GitHub Pages em `Settings > Pages` (Source: Deploy from a branch, Branch: main /root).
+
+- Link público (exemplo): `https://SEU_USUARIO.github.io/NOME_DO_REPO/`
+- Dica: adicione um screenshot em `assets/screenshot.png` e referencie aqui no README.
+
+## Screenshot
+Adicione uma captura da home em `assets/screenshot.png` e ela aparecerá abaixo:
+
+![Screenshot da home](assets/screenshot.png)
+
+Para criar rapidamente no Windows, use `Win + Shift + S` (Ferramenta de Captura) e salve como `assets/screenshot.png`.
 
 ## Licença
-Defina a licença que preferir (ex.: MIT). Por enquanto, deixe como "Todos os direitos reservados" ou adicione um arquivo `LICENSE` depois.
+Licenciado sob a licença MIT.
+
+- Texto canônico (EN): veja `LICENSE`
+- Tradução PT-BR: veja `LICENSE_PT_BR.md`
 
 ---
 Feito com foco em clareza e simplicidade. Se te ajudou, deixe uma estrela quando publicar no GitHub. 💪
